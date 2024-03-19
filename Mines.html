@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+<script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>MineSweeper</title>
+        <link rel="stylesheet" href="mines.css">
+        <script src="mines.js" defer></script>
+    </head>
+
+    <header>
+        <h1>MineSweeper💣</h1>
+    </header>
+
+    <body>
+          
+        <div id="game">
+            <label id="minesr">Mines: </label>
+            <label id="bombs">0</label><br><br>
+
+            <label id="tilel">Tiles Revealed: </label>
+            <label id="tiles">0</label><br><br>
+
+            <label id="timel">Time:</label>
+            <label id="time">0</label>
+            <label id="seconds">s</label><br>
+
+            <table id="grid"></table> 
+
+            <button id="quit">Quit</button><br>
+
+            <p id="gameover">Game Over</p><br>
+            <p id="pick">Pick a Difficulty to start a new game</p>
+
+            <label id="diffLabel">Difficulty: </label>
+            <button id="easy">Easy</button>
+            <button id="medium">Medium</button>
+            <button id="hard">Hard</button>
+        </div>
+
+        <p id="version">Version: 1.0</p>
+
+    </body>
+
+</html>
